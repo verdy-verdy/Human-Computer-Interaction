@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../style/register.css">
+</head>
+
+<body>
+    
+    <div class="head">       
+        <head > 
+            <div class="navi">
+                <div class="navi-left">
+
+                    <div>  
+                        <img class="logo" src="../asset/Logo.png" >
+                        <h1>RX Player</h1> 
+                        
+                    
+                    </div>                
+                </div>
+    
+                <nav class="navi-right">
+                    <ul>
+                        
+                        <li><a href="../html/home.html">Home</a></li>
+
+                        <li class="dropdown"><a href="#">Service</a>
+                            <ul class="dropdown-list">
+                                <li class="bor"><a href="../html/register.html">Register</a></li>
+                                <li class="bor"><a href="../html/premium.html">Premium</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown2"><a href="#">Music</a>
+                            <ul class="dropdown-list2">
+                                <li class="bor2"><a href="../html/genre.html">Genre</a></li>
+                                <li class="bor2"><a href="../html/top.html">Top.10</a></li>
+                            </ul>                       
+
+                        </li>
+
+                    </div>
+
+                </nav>
+
+            </div>
+            
+
+    
+        </head>
+    </div>
+
+    <body class="body">
+
+        <div id="up">
+
+            <h1 id="text">Register</h1>
+
+        </div>
+
+
+        <div id="cont">
+
+            <form name="form" id="form">
+                <div>
+                    <h3>Full Name <br> </h3>
+                    <input type="text" id="name" name="name">
+                </div>
+    
+                <div>
+                    <h3>Email <br></h3>
+                    <input type="text" id="email" name="email">
+                </div>
+    
+                <div>
+                    <h3>Password <br></h3>
+                    <input type="password" id="pass" name="pass">
+                </div>
+    
+                <div>
+                    <h3>Gender <br></h3>
+                    <!-- <input type="text" id="gender" name="gender"> -->
+                    <select name="myselect" id="gender">
+                        <option value=""><p id="choose">Choose</p></option>
+                        <option value=""><p class="des2">Male</p></option>
+                        <option value=""><p class="des2">Female</p></option>
+                    </select>
+                </div>
+    
+
+                <h3>Payment Method</h3>
+                <!-- <input type="text" id="pay" name="pay"> -->
+                <div class="med">
+                    <input type="radio" name="method">
+                    <label for="visa">VISA</label>
+                </div>
+                <div class="med">
+                    <input type="radio" name="method">
+                    <label for="mastercard">MasterCard</label>
+                </div>
+                <div class="med">
+                    <input type="radio" name="method">
+                    <label for="paypal">PayPal</label>
+                </div>
+
+    
+                <p class="des">
+                    <input type="checkbox" id="box"> agree to terms and conditions
+                </p>
+    
+                <!-- <a href="home.html"> -->
+                    <button id="sub" onclick="done()" >Submit</button>
+                <!-- </a> -->
+
+            </form>
+
+
+        </div>
+
+
+
+
+    </body>
+
+
+    <footer>
+
+        <div class="footer">
+
+            <img class="logo" src="../asset/Logo.png" >
+
+            <h1>RX Player</h1>
+    
+    
+            <div id="icon">
+                <a href="https://twitter.com/" target="_blank"><img class="social" src="../asset/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="social" src="../asset/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="social" src="../asset/facebook.png" alt=""></a>
+            </div>
+
+        </div>
+
+
+        <div>
+            <h3 id="h">&copy 2020 RX Player ID</h3>
+        </div>
+        
+
+
+
+    </footer>
+
+</body>
+
+<script src="../script/register.js"></script>
+
+</html>
